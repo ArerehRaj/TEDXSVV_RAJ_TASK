@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <title>About Team Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/scripts.js"></script>
+</head>
+<body>
+    
+    <!-- NAV STARTS -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#" onclick="showAlert('TedX')"><img src="./images/tedx_logo.png" height="40px" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav_bar_items" onclick="showAlert('Home')" aria-current="page" href="#" style="color:#FF0000;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_bar_items" href="#" onclick="showAlert('About Us')" style="color:#FF0000;">About Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- NAV ENDS -->
+
+    <div class="show_content">
+        <div class="container">
+            <br>
+            <h1 class="heading">Meet the Team</h1>
+            <br>
+            <h1 class="titles">Organizers</h1>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/card_bg_2.jpg" alt="card bg" class="card-img">
+                    <img src="./images/Raj_rathod.png" alt="Profile Image" class="profile-image">
+                    <h1>Raj Rathod</h1>
+                    <p class="job-title">Designer</p>
+                    <ul class="social-media">
+                        <li><a href="#" onclick="showAlert('Facebook')"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#" onclick="showAlert('Instagram')"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" onclick="showAlert('LinkedIN')"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="./images/card_bg_2.jpg" alt="card bg" class="card-img">
+                    <img src="./images/one.jpg" alt="Profile Image" class="profile-image">
+                    <h1>Chris Evans</h1>
+                    <p class="job-title">Captain</p>
+                    <ul class="social-media">
+                        <li><a href="#" onclick="showAlert('Facebook')"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#" onclick="showAlert('Instagram')"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" onclick="showAlert('LinkedIN')"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <br>
+
+            <h1 class="titles">Web Team</h1>
+
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/card_bg_2.jpg" alt="card bg" class="card-img">
+                    <img src="./images/two.jpg" alt="Profile Image" class="profile-image">
+                    <h1>You Know Me</h1>
+                    <p class="job-title">BackEnd Web Developer</p>
+                    <ul class="social-media">
+                        <li><a href="#" onclick="showAlert('Facebook')"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#" onclick="showAlert('Instagram')"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" onclick="showAlert('LinkedIN')"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="./images/card_bg_2.jpg" alt="card bg" class="card-img">
+                    <img src="./images/three.jpg" alt="Profile Image" class="profile-image">
+                    <h1>Tanjiro</h1>
+                    <p class="job-title">Demon Slayer</p>
+                    <ul class="social-media">
+                        <li><a href="#" onclick="showAlert('Facebook')"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#" onclick="showAlert('Instagram')"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" onclick="showAlert('LinkedIN')"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="./images/card_bg_2.jpg" alt="card bg" class="card-img">
+                    <img src="./images/four.jpg" alt="Profile Image" class="profile-image">
+                    <h1>Edward</h1>
+                    <p class="job-title">Alchemist</p>
+                    <ul class="social-media">
+                        <li><a href="#" onclick="showAlert('Facebook')"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#" onclick="showAlert('Instagram')"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" onclick="showAlert('LinkedIN')"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <p class="titles">Have a Happy and Safe 2021</p>
+        <p class="titles">©️Raj Rathod</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
